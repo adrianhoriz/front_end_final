@@ -14,6 +14,12 @@ header {
     align-items: center;
 }
 
+.Quiz {
+  width: 300px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
 .entrar {
   height: 40px;
   width: 90px;
@@ -23,6 +29,7 @@ header {
   font-size: 1rem;
   transition: background-color 0.3s, color 0.3s;
   margin-top: 1px;
+
 
 }
 
@@ -34,10 +41,10 @@ header {
   border-radius: 30px;
   padding: 10px 20px;
   font-size: 1rem;
-  cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   margin: 5px;
-  margin-right: 35px;
+
+
 }
 
 .entrar:hover {
@@ -53,21 +60,15 @@ header {
 .pw {
   width: 1800px;
   height: 55px;
-  background-color: #0e7667;
+  background-image: linear-gradient(#004E40 1%,#006661);
   display: inline;
   list-style: none;
   display: flex;
   color: white;
   text-decoration: none;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
-
-
-.h1 {
-  margin-left: 10px;
-  color: #ffffff;
-  margin-right: 800px;
-}
-
 
 
 .bt0 {
@@ -125,24 +126,6 @@ header {
   color: #fff;
 }
 
-input[type="text"] {
-  margin-left: 80px;
-  height: 10px;
-  width: 200px;
-  padding: 10px;
-  border: 2px solid #000000;
-  border-radius: 20px;
-  font-size: 16px;
-  color: #000000;
-  margin-top: 10px; 
-}
-input[type="text"]:focus {
-  border-color: #ffffff;
-  outline: none;
-}
-
-
-
 .imglogo {
     margin-left: 10px;
     height: 110px;
@@ -159,10 +142,81 @@ input[type="text"]:focus {
   
 }
 
-.imgCentro{
-  width: 1000px;
-  height: 450px;
+.content {
+  margin-top: 30px;
+  height: 400px;
+  width: 750px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
+.content .slide img {
+  height: 100%;
+  width: 100%;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 160px;
+  left: 850px;
+  display: flex;
+}
+
+.bar {
+
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  margin: 6px;
+  border-radius: 15px;
+  cursor: pointer;
+  transform: .5s ease;
+
+}
+
+.bar:hover {
+  background-color: white;
+}
+
+input {
+display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: .3s;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+} 
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+} 
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+} 
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
+} 
 
 .modalimg1{
     display: none;
@@ -186,7 +240,7 @@ input[type="text"]:focus {
 }
 
 .close{
-  color:#0e7667;
+  color:#006661;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -198,7 +252,7 @@ input[type="text"]:focus {
 }
 h3{
   font-size: 1.7em;
-  color:#0e7667
+  color:#006661
 }
 i2{
   font-size: 1.5em;
@@ -217,22 +271,8 @@ i2{
     color: #666;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
 .banner {
+  height: 400px;
     background-color: #555;
     color: white;
     padding: 50px;
@@ -273,9 +313,11 @@ nav ul li a {
 
 
 footer {
+    height: 68px;
     background-color: #333;
     color: white;
     padding: 1px;
     text-align: center;
+   
 }
 

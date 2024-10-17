@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entrar {
+  height: 40px;
+  width: 90px;
+  background-color :#333 ;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 1px;
+
+
+}
+
+.cadastrar{
+  height: 40px;
+  width: 110px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 5px;
+
+
+}
+
+.entrar:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.cadastrar:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.pw {
+  width: 1800px;
+  height: 55px;
+  background-image: linear-gradient(#004E40 1%,#006661);
+  display: inline;
+  list-style: none;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.Quiz {
+  width: 300px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+
+.bt0 {
+  height: 30px;
+  width: 100px;
+  margin-left: 650px;
+  background-color :#E1D8D8;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 14px;
+}
+
+.bt0:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bt2 {
+  margin: 3px;
+  height: 30px;
+  width: 118px;
+  margin-left: 40px;
+  background-color :#E1D8D8;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 14px;
+}
+
+.bt2:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bt3 {
+  margin: 3px;
+  height: 30px;
+  width: 100px;
+  margin-left: 40px;
+  background-color :#E1D8D8;
+  color: #000000;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 14px;
+}
+
+.bt3:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.imglogo {
+    margin-left: 10px;
+    height: 110px;
+    position: relative;
+    top: 5px;
+    padding: 0;
+}
+
+.logo {
+    margin-right: 850px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+  
+}
+
+.artigo{
+  margin-top: -50px;
+  background-color: #E8F6F4;
+  height: 110%;
+  margin-bottom: 50px;
+  border-radius: 20px 20px;
+
+}
+
+.banner {
+  height: 400px;
+  width: 1350px;
+  background-color: #ffffff;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+h1 {
+  color: #000;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+p {
+  color: #000;
+  font-size: 22px;
+}
+
+footer {
+    height: 68px;
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+   
+}
+.p{
+  color: #fff;
+}

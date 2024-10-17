@@ -16,14 +16,12 @@
         <div class="logo">
             <h1 class="Quiz">Quiz de profissões</h1>
         </div>
-        <nav>
 
-            <a href="http://127.0.0.1:5500/GitHub/teste_1/Login.html">
-                <button class="entrar">Entrar</button></a>
-            <a href="http://127.0.0.1:5500/GitHub/teste_1/Cadastro.html">
-                <button class="cadastrar">Cadastrar</button></a>
-
-        </nav>
+        <button class="entrar"
+         onclick="redirectTo('http://127.0.0.1:5500/Login.html')">Entrar</button>
+        <button class="cadastrar"
+        ] onclick="redirectTo('http://127.0.0.1:5500/Cadastro.html')">Cadastrar</button>
+        
     </header>
 
     <!--pw parte de cima junto com a pesquisa-->
@@ -33,35 +31,52 @@
         <a href="http://127.0.0.1:5500/GitHub/teste_1/Explorar.html">
         <button class="bt3">Explorar </button></a>
 
-        <input type="text" name="nome" value="Seu Nome"
-            onfocus="javascript:(this.value=='Seu Nome'?this.value = '':null);"
-            onblur="javascript:(this.value==''?this.value = 'Seu Nome':null);" />
-
     </div>
 
     <section class="banner">
-        <img class="imgCentro" src="img/img1.1.png" onclick="showModalImg1()"></img>
-        <div id="myModalImg1" class="modalimg1">
-            <div class="modal-content-img1">
-                <span class="close" onclick="hideModalImg1('Img1')">&times;</span>
-                <h3>O qᴜᴇ é ᴜᴍ Qᴜɪᴢ ᴅᴇ Pʀᴏꜰɪꜱꜱõᴇꜱ?</h3>
-                <i2>O Quiz de Profissões é um site que utilizamos para avaliar as<br>
-                    características, habilidades, aptidões e preferências de um indivíduo em relação<br>
-                    ao ambiente de trabalho. Geralmente, consiste em uma série de perguntas ou<br>
-                    atividades projetadas para identificar os traços de personalidade, estilo de trabalho,<br>
-                    valores e interesses do participante.
-                </i2>
-                <h3>Fᴀᴢᴇʀ ᴏ Qᴜɪᴢ ᴅᴇ Pʀᴏꜰɪꜱꜱõeꜱ Oꜰᴇʀᴇᴄᴇ Dɪᴠᴇʀꜱᴏꜱ BᴇɴᴇꜰÍᴄɪᴏꜱ?</h3>
-                <i2>Sim, fazer o Quiz de Profissões oferecerá benefícios como:<br>
-                    Autocnhecimento;<br>
-                    Orientação profissional;<br>
-                    Direcionamento na escolha da carreira;<br>
-                    Identificação de áreas de melhoria;<br>
-                    Auento da autoconfiança.
-                </i2>
-            </div>
-     
+        
+        <div class="content">
 
+            <div class="slides">
+    
+                <input class="input" type="radio" name="slide" id="slide1" checked>
+                <input class="input" type="radio" name="slide" id="slide2">
+                <input class="input" type="radio" name="slide" id="slide3">
+                <input class="input" type="radio" name="slide" id="slide4">
+                <input class="input" type="radio" name="slide" id="slide5">
+    
+    
+                <div class="slide s1">
+                    <img src="img/img1.png" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/img2.png" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/img3.png" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/img4.png" alt="">
+                </div>
+    
+                <div class="slide">
+                    <img src="img/img5.png" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="navigation">
+    
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+    
+        </div>
             <!-- Adicione mais quises conforme necessário -->
 
         </div>
